@@ -11,6 +11,17 @@ To run locally: clone the repository, change directory into the repo and:
     bundle install
     bundle exec unicorn -c unicorn.rb
 
+## Deploying to Heroku
+
+Assumes you have [Heroku Toolbelt](https://toolbelt.heroku.com/) installed
+and configured:
+
+    heroku create
+    git push heroku master
+    heroku open
+
+You should see something like [http://vast-woodland-3771.herokuapp.com/](http://vast-woodland-3771.herokuapp.com/).
+
 ## License
 MIT Licensed. See MIT-LICENSE.txt for more information.
 
