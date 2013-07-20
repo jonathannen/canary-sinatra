@@ -6,7 +6,7 @@ A simple project based upon the [Sinatra Framework](http://www.sinatrarb.com/)
 and [Unicorn](http://unicorn.bogomips.org/). Used to test rack-based Cepa 
 deployments.
 
-To run locally:
+To run locally: clone the repository, change directory into the repo and:
 
     bundle install
     bundle exec unicorn -c unicorn.rb
